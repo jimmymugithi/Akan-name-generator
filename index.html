@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+
 <body>
-    
+    <h1>Akan Name Generator</h1>
+
+    <p>In this project, I will build a simple web application that calculates the day of the week a user was born and
+        assigns them an Akan name based on their gender. Akan names come from Ghanaian culture, where children are named
+        based on the day they were born.</p>
+
+    <form id="Akan-form">
+        <label>Birthdate:</label><br>
+        <input type="date" id="birthdate" required><br><br>
+        <label>gender:</label><br>
+        <input type="radio" name="gender" value="male">male<br>
+        <input type="radio" name="gender" value="female"> female<br><br>
+
+        <button type="submit">Get Akan name</button>
+    </form>
+
+    <h2 id="New name"></h2>
+    <script src="./src/script.js"></script>
+    <section class="images">
+        <div>
+            <img src="./assets/images/akan1.jpg" alt="akan1">
+            <p>Akan People events. The Akan people are a major ethnic group in Ghana, comprising a significant portion
+                of the country's population and playing a crucial role in its history, culture, and economy. They are
+                known for their matrilineal social structure, vibrant culture, and significant historical achievements,
+                including the development of gold mining and trading and the rise of powerful states like the Asante
+                Empire.
+
+            </p>
+        </div>
+
+    </section>
+
 </body>
+
 </html>
